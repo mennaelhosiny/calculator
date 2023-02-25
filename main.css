@@ -12,13 +12,13 @@ body{
 }
 .calc{
     display: grid;
-    grid-template-columns: repeat(4,50px);
+    grid-template-columns: repeat(4,60px);
 }
 input{
     grid-column: span 4;
     border: none;
     height: 100px;
-    width: 210px;
+    width: 240px;
     text-align: end;
     padding: 0 15px;
     font-size: 35px;
@@ -36,7 +36,6 @@ button{
     color: #ccc;
     font-family: monospace;
     padding: 10px;
-    padding-left: 3px;
     cursor: pointer;
 }
 button:active{
